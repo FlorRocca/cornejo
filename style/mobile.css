@@ -1,0 +1,46 @@
+header{
+    justify-content: flex-start;
+}
+header .imagen-container img{
+    width: 3rem;
+    height: 3rem;
+}
+#hero .container  .informacion-personal{
+    top: 3rem;
+    flex-direction: column;
+    padding: 6rem 0;
+}#hero .informacion-personal #perfil{
+    display: contents;
+    width: 60rem;
+    height: 40rem;
+}
+#hero .informacion-personal #perfil img{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+}
+#hero .informacion-personal .informacion{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    width: auto;
+    margin-top:2rem;
+}
+#hero .informacion-personal .informacion p{
+    margin-top:2rem;
+}
+
+#hero .informacion-personal .informacion span{
+    display:none;
+}
+main {
+
+    align-items: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
